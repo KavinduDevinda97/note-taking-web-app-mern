@@ -9,7 +9,7 @@ const path = require('path');
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: 'https://note-taking-web-app-mern-k4wy.vercel.app/', credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
