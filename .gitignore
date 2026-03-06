@@ -4,3 +4,4 @@ backend/node_modules/
 
 # Env files
 backend/.env
+frontend/.env
